@@ -1,0 +1,30 @@
+[
+  {
+    "id": "f941b616-6b60-4327-bb24-de034806abea",
+    "data": [
+      {
+        "text": "1",
+        "alias": "covid2",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "e3b17e2a-2ce1-41c8-af11-338372afcac2",
+    "data": [
+      {
+        "text": "0",
+        "alias": "covid2",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "id": "0b38bc53-a8c7-4779-bc34-d1ed7a9fa5ee",
+  "name": "Faq_C_Studio",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "Queste sono alcune domande che puoi farmi riguardanti lo studio:",
+              "reply_markup": {
+                "keyboard": [
+                  [
+                    {
+                      "text": "🔙TORNA ALLE CATEGORIE DELLE FAQ🔙"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Come si fa per iscriversi a scuola ?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Dove si trova la scuola di italiano ?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Dove posso trovare dei libri in italiano ?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Dove posso trovare persone che parlano la mia lingua ?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Posso continuare l’università ?"
+                    }
+                  ]
+                ],
+                "one_time_keyboard": false,
+                "resize_keyboard": true
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

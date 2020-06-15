@@ -1,0 +1,105 @@
+{
+  "id": "e31e224a-d2a2-43f3-b8e3-7674b0c85255",
+  "name": "SF12_08",
+  "auto": true,
+  "contexts": [
+    "sf12_7"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf12_8",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2a1f24c1-445b-48f7-a426-c54a40496009",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "BP2",
+          "value": "$BP2",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Sempre",
+                      "callback_data": "1"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "2",
+                      "text": "Quasi sempre"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "3",
+                      "text": "Molto tempo"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Una parte del tempo",
+                      "callback_data": "4"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Quasi mai",
+                      "callback_data": "5"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "6",
+                      "text": "Mai"
+                    }
+                  ]
+                ]
+              },
+              "text": "Per quanto tempo nelle ultime quattro settimane ti sei sentito calmo e sereno?"
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,83 @@
+{
+  "id": "e8664be1-8866-4262-8297-a9b09155f954",
+  "name": "Faq_C_CentroAccoglienza",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "Queste sono alcune domande che puoi farmi riguardanti il centro di accoglienza:",
+              "reply_markup": {
+                "keyboard": [
+                  [
+                    {
+                      "text": "🔙TORNA ALLE CATEGORIE DELLE FAQ🔙"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Come si puliscono le stanze?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Come rifaccio il letto?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Posso fare la doccia tutti i giorni?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Non riesco a dormire perchè il mio compagno russa. Cosa faccio?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Voglio usare il TOTEM domani. Come si prenota ?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Vorrei vedere lo psicologo. Come si prenota ?"
+                    }
+                  ]
+                ],
+                "resize_keyboard": false,
+                "one_time_keyboard": false
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

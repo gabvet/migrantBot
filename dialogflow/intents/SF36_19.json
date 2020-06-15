@@ -1,0 +1,99 @@
+{
+  "id": "eeae52cb-cb43-447a-88a8-bc54d52f1d93",
+  "name": "SF36_19",
+  "auto": true,
+  "contexts": [
+    "sf36_18"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf36_19",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "26e9cf60-465a-45d0-9525-0b22701cdb15",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "risposta19",
+          "value": "$risposta19",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Per nulla",
+                      "callback_data": "100"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Leggermente",
+                      "callback_data": "75"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Un po\u0027",
+                      "callback_data": "50"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "25",
+                      "text": "Molto"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "0",
+                      "text": "Moltissimo"
+                    }
+                  ]
+                ]
+              },
+              "text": "Nelle ultime quattro settimane, in che misura la tua salute fisica o il tuo stato emotivo hanno interferito con le normali attività sociali con la famiglia, gli amici, i vicini di casa, i gruppi di cui fai parte?"
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,83 @@
+{
+  "id": "4356ab15-52c7-463b-b481-f0c5dda71b73",
+  "name": "SF36_11",
+  "auto": true,
+  "contexts": [
+    "sf36_10"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf36_11",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "95d38d55-cc4a-4f7b-8c03-2a292e7429d1",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "risposta11",
+          "value": "$risposta11",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "1 - Sì, mi limita parecchio \n2 - Si, mi limita parzialmente \n3 - No, non mi limita per nulla",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "1",
+                      "callback_data": "0"
+                    },
+                    {
+                      "text": "2",
+                      "callback_data": "50"
+                    },
+                    {
+                      "callback_data": "100",
+                      "text": "3"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "Fare il bagno o vestirsi da soli"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

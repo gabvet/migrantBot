@@ -1,0 +1,99 @@
+{
+  "id": "61830401-507f-4b07-9ad5-992dee7d9223",
+  "name": "SF36_33",
+  "auto": true,
+  "contexts": [
+    "sf36_32"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf36_33",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a50804a1-fddd-46ea-83ea-ae78858faabf",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "risposta33",
+          "value": "$risposta33",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "La mia salute è come quella degli altri",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "100",
+                      "text": "Certamente vero"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "75",
+                      "text": "In gran parte vero"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Non so",
+                      "callback_data": "50"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "25",
+                      "text": "In gran parte falso"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Certamente falso",
+                      "callback_data": "0"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

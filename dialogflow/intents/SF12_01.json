@@ -1,0 +1,83 @@
+{
+  "id": "e2d247cf-5863-40ef-bd65-10fcc4bada59",
+  "name": "SF12_01",
+  "auto": true,
+  "contexts": [
+    "sf12_0"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf12_1",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "42ea5296-5070-4efe-ae9d-22c4c61d2200",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "GH1",
+          "value": "$GH1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "1 - Sì, mi limita parecchio \n2 - Si, mi limita parzialmente \n3 - No, non mi limita per nulla",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "1",
+                      "text": "1"
+                    },
+                    {
+                      "callback_data": "2",
+                      "text": "2"
+                    },
+                    {
+                      "text": "3",
+                      "callback_data": "3"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "La tua salute ti limita attualmente nello svolgimento di attività di moderato impegno fisico (come spostare un tavolo, usare l\u0027aspirapolvere, giocare a bocce o fare un giro in bici)?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

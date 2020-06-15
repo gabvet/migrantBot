@@ -1,0 +1,79 @@
+{
+  "id": "c76a4837-9a9e-4f4f-b120-a64c4fc57333",
+  "name": "SF12_05",
+  "auto": true,
+  "contexts": [
+    "sf12_4"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf12_5",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "619b7b07-69e0-4041-b261-5d8d338656a5",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "RP3",
+          "value": "$RP3",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "1",
+                      "text": "Sì"
+                    },
+                    {
+                      "text": "No",
+                      "callback_data": "2"
+                    }
+                  ]
+                ]
+              },
+              "text": "Nelle ultime 4 settimane, hai reso meno di quanto avrebbe voluto sul lavoro o nelle altre attività quotidiane, a causa del tuo stato emotivo (ad esempio ti sei sentito depresso o ansioso)?"
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

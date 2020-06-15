@@ -1,0 +1,84 @@
+[
+  {
+    "id": "91774577-1bef-4e60-9497-d5f2141d49ef",
+    "data": [
+      {
+        "text": "parrocchie",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "01c75dd2-2a82-4f07-956f-9aedd189afc2",
+    "data": [
+      {
+        "text": "parrocchia",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7603aaa8-0419-4b0c-93a7-f53375c4688b",
+    "data": [
+      {
+        "text": "Chiesa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "70547c1a-24e8-4c61-98a3-94787b3beba9",
+    "data": [
+      {
+        "text": "Moschea",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "af05f490-3fd7-4bd5-8e34-ac864e7768c6",
+    "data": [
+      {
+        "text": "Dove si trova la ",
+        "userDefined": false
+      },
+      {
+        "text": "chiesa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "/",
+        "userDefined": false
+      },
+      {
+        "text": "moschea",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " più vicina?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

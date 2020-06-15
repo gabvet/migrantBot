@@ -1,0 +1,30 @@
+[
+  {
+    "id": "7348e73a-bdb0-4e41-be52-89453e7ade32",
+    "data": [
+      {
+        "text": "100",
+        "alias": "risposta18",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "68fed052-df63-4511-aebd-d0cb45c0bb4e",
+    "data": [
+      {
+        "text": "0",
+        "alias": "risposta18",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

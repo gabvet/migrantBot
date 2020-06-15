@@ -1,0 +1,54 @@
+{
+  "id": "7bb8df11-a4b3-42be-b290-3fefe43fcf2b",
+  "name": "Faq_Parrocchia",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "Qui puoi trovare l\u0027elenco delle parrocchie in Italia:",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Premi qui",
+                      "url": "https://www.tuttocitta.it/parrocchie-italia"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

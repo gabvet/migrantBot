@@ -1,0 +1,91 @@
+{
+  "id": "b1f18875-4661-4270-acae-520e0f59eea0",
+  "name": "SF36_01",
+  "auto": true,
+  "contexts": [
+    "sf36_0"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf36_1",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9b0477ec-2eeb-41db-bb1f-9abd65b1c88b",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "risposta1",
+          "value": "$risposta1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "1",
+                      "callback_data": "100"
+                    },
+                    {
+                      "text": "2",
+                      "callback_data": "75"
+                    },
+                    {
+                      "text": "3",
+                      "callback_data": "50"
+                    },
+                    {
+                      "callback_data": "25",
+                      "text": "4"
+                    },
+                    {
+                      "callback_data": "0",
+                      "text": "5"
+                    }
+                  ]
+                ]
+              },
+              "text": "1 - Decisamente migliore adesso rispetto a un anno fa \n2 - Un po’ migliore adesso rispetto a un anno fa \n3 - Più o meno uguale rispetto a un anno fa \n4 - Un po’ peggiore adesso rispetto a un anno fa \n5 - Decisamente peggiore adesso rispetto a un anno fa"
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "Rispetto a un anno fa, come giudicheresti, ora, la tua salute in generale?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

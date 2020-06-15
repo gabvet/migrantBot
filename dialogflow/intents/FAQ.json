@@ -1,0 +1,97 @@
+{
+  "id": "c8bceb13-9ef3-4a3a-8c85-940b45a48313",
+  "name": "FAQ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "resize_keyboard": true,
+                "one_time_keyboard": true,
+                "keyboard": [
+                  [
+                    {
+                      "text": "TORNA ALLA HOME 🏠"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Orientamento e localizzazione di servizi",
+                      "callback_data": "Orientamento e localizzazione di servizi"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Salute",
+                      "callback_data": "Salute"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "Riconoscimento in Italia",
+                      "text": "Riconoscimento in Italia"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "Lavoro",
+                      "text": "Lavoro"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Studio",
+                      "callback_data": "Studio"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "Alloggio",
+                      "text": "Alloggio"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Vita nel centro di accoglienza",
+                      "callback_data": "Vita nel centro di accoglienza"
+                    }
+                  ]
+                ]
+              },
+              "text": "Prova a farmi una domanda, altrimenti scegli una categoria tra queste qui:"
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

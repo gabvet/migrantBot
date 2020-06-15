@@ -1,0 +1,79 @@
+{
+  "id": "f6779a57-8f57-447d-963a-15511fe01ae3",
+  "name": "SF12_06",
+  "auto": true,
+  "contexts": [
+    "sf12_5"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf12_6",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "da3fc229-79bc-4c2d-adab-c07832ca9bba",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "RE2",
+          "value": "$RE2",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Sì",
+                      "callback_data": "1"
+                    },
+                    {
+                      "text": "No",
+                      "callback_data": "2"
+                    }
+                  ]
+                ]
+              },
+              "text": "Nelle ultime 4 settimane, hai avuto un calo di concentrazione sul lavoro o nelle altre attività quotidiane, a causa del tuo stato emotivo (ad esempio ti sei sentito depresso o ansioso)?"
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

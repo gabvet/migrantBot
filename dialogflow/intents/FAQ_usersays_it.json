@@ -1,0 +1,71 @@
+[
+  {
+    "id": "12ce12c6-fd43-47e6-920a-e12b4b53a639",
+    "data": [
+      {
+        "text": "TORNA ALLE CATEGORIE DELLE FAQ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "87278ae5-79d5-4ebe-8b50-9a8b1cd7a72c",
+    "data": [
+      {
+        "text": "Voglio farti ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " domanda",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e712597e-45cf-473b-b2b3-268dd1377573",
+    "data": [
+      {
+        "text": "cosa puoi fare",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "432a7843-3974-4a4a-8af8-99f9cdd73af4",
+    "data": [
+      {
+        "text": "domande",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fbed8d69-3319-4673-99b0-606027516886",
+    "data": [
+      {
+        "text": "faq",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

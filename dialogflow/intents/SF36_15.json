@@ -1,0 +1,79 @@
+{
+  "id": "035cd5df-3c6d-42de-92d6-2e83daf19659",
+  "name": "SF36_15",
+  "auto": true,
+  "contexts": [
+    "sf36_14"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf36_15",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "076641c7-a27b-4d7e-b751-ebbdb1a97efb",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "risposta15",
+          "value": "$risposta15",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "Hai avuto difficoltà nell’eseguire il lavoro o altre attività",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Sì",
+                      "callback_data": "0"
+                    },
+                    {
+                      "callback_data": "100",
+                      "text": "No"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,79 @@
+{
+  "id": "6a75f81b-8e01-4432-b0e2-5e061ad40451",
+  "name": "SF36_12",
+  "auto": true,
+  "contexts": [
+    "sf36_11"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf36_12",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "869f0cec-3b3e-4aad-8f73-a06824ad1da0",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "risposta12",
+          "value": "$risposta12",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "0",
+                      "text": "Sì"
+                    },
+                    {
+                      "callback_data": "100",
+                      "text": "No"
+                    }
+                  ]
+                ]
+              },
+              "text": "Hai ridotto il tempo dedicato al lavoro o ad altre attività"
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "Nelle ultime quattro settimane, hai riscontrato i seguenti problemi sul lavoro o nelle altre attività quotidiane, a causa della tua salute fisica?\nPer ogni domanda premi su Sì o No"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

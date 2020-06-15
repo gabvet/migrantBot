@@ -1,0 +1,51 @@
+{
+  "id": "ef8c1b12-d47b-4282-8b55-7462f547910d",
+  "name": "Tree_StartTree_Bene_LavoraSi",
+  "auto": true,
+  "contexts": [
+    "startTree_Bene"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "startTree_Bene_LavoraSI",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "title": "A presto!",
+          "replies": [
+            "Ritorna alla home🏠"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "Molto bene, allora ti auguro una buona giornata e buon lavoro!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

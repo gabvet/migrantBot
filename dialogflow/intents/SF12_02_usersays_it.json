@@ -1,0 +1,44 @@
+[
+  {
+    "id": "afabe688-6d04-4fc5-aee3-902c17460ec1",
+    "data": [
+      {
+        "text": "3",
+        "alias": "PF02",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "49940707-fd7f-404b-babf-15ad4f1b0108",
+    "data": [
+      {
+        "text": "2",
+        "alias": "PF02",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8625b93b-b8fe-414f-84eb-6b4a9f5968f5",
+    "data": [
+      {
+        "text": "1",
+        "alias": "PF02",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

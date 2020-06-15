@@ -1,0 +1,89 @@
+{
+  "id": "84c039a2-d24f-4f6a-9fd0-f9d91b03ff98",
+  "name": "SF12_00_Start",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf12_data",
+          "parameters": {},
+          "lifespan": 17
+        },
+        {
+          "name": "sf12_0",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "In generale diresti che la tua salute è:",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Eccellente",
+                      "callback_data": "1"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "2",
+                      "text": "Molto buona"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "3",
+                      "text": "Buona"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "4",
+                      "text": "Passabile"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Scadente",
+                      "callback_data": "5"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "Inizio a farti qualche domanda.."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

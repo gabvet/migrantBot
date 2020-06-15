@@ -1,0 +1,75 @@
+{
+  "id": "860a4a47-01df-4f58-9807-f4620937a646",
+  "name": "SF36_36",
+  "auto": true,
+  "contexts": [
+    "sf36_35"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf36_36",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c0b5e992-3212-4816-9404-84a049d8df7c",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "risposta36",
+          "value": "$risposta36",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "Clicca sul tasto sottostante per avere i risultati\nSe non dovesse comparire nulla, premi nuovamente il tasto dopo alcuni secondi",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "RISULTATI_SF36",
+                      "text": "RISULTATI"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "Ok, ho acquisito tutte le domande!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

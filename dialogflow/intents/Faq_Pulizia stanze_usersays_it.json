@@ -1,0 +1,60 @@
+[
+  {
+    "id": "5cd15e4d-5181-4453-9a2a-7693eef1dc0e",
+    "data": [
+      {
+        "text": "cambio biancheria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d28a0ba2-688e-4f35-a9d0-edfe6eaaeb7a",
+    "data": [
+      {
+        "text": "pulizia ",
+        "userDefined": false
+      },
+      {
+        "text": "locali",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "67e414c6-3e58-4d42-8b45-823398477a2f",
+    "data": [
+      {
+        "text": "Pulizia stanze",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d2d6c19b-777e-4dd8-a843-3a5cc22f9712",
+    "data": [
+      {
+        "text": "Come si puliscono ",
+        "userDefined": false
+      },
+      {
+        "text": "le stanze",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

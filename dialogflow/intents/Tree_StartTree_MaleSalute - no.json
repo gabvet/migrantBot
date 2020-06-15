@@ -1,0 +1,40 @@
+{
+  "id": "e78c40f5-1fc2-4da9-b9e8-eaf95ee8807c",
+  "name": "Tree_StartTree_MaleSalute - no",
+  "auto": true,
+  "contexts": [
+    "TreeMaleSalute"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Tree_StartTree_MaleSalute.Tree_StartTree_MaleSalute-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "title": "D\u0027accordo, non ti preoccupare",
+          "replies": [
+            "Torna alla home🏠"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

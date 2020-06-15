@@ -1,0 +1,23 @@
+[
+  {
+    "id": "f35368e3-cf95-4e1b-a710-56cba810311f",
+    "data": [
+      {
+        "text": "Voglio ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " check sulla mia salute",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

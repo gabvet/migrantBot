@@ -1,0 +1,79 @@
+{
+  "id": "f22f56a1-e83b-4721-baef-304a16b160ad",
+  "name": "SF12_04",
+  "auto": true,
+  "contexts": [
+    "sf12_3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf12_4",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d264a931-e0a4-4a58-a25d-61ed14d2ee97",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "RP2",
+          "value": "$RP2",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "1",
+                      "text": "Sì"
+                    },
+                    {
+                      "callback_data": "2",
+                      "text": "No"
+                    }
+                  ]
+                ]
+              },
+              "text": "Nelle ultime 4 settimane, hai dovuto limitare alcuni tipi di lavoro o di altre attività, a causa della tua salute fisica?"
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "09d394e5-d797-429f-ba96-1c1ccd60efba",
+    "data": [
+      {
+        "text": "RSSMRI98E22A494L",
+        "alias": "code",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cea6b684-1e80-4703-b4c3-6b075a7d522c",
+    "data": [
+      {
+        "text": "Mario Rossi",
+        "alias": "person",
+        "meta": "@sys.person",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2d93a6f9-3bf2-41e8-80e6-151c9a8735a3",
+    "data": [
+      {
+        "text": "il mio nome è ",
+        "userDefined": false
+      },
+      {
+        "text": "Mario Rossi",
+        "alias": "person",
+        "meta": "@sys.person",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6d902c4b-d1fa-4ebf-9341-fd60a06b8c13",
+    "data": [
+      {
+        "text": "mi chiamo ",
+        "userDefined": false
+      },
+      {
+        "text": "Mario Rossi",
+        "alias": "person",
+        "meta": "@sys.person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8bfd70c8-6aad-4c60-8607-22d6568ddc33",
+    "data": [
+      {
+        "text": "il mio nome è ",
+        "userDefined": false
+      },
+      {
+        "text": "Mario",
+        "alias": "person",
+        "meta": "@sys.person",
+        "userDefined": false
+      },
+      {
+        "text": " e il mio cognome è ",
+        "userDefined": false
+      },
+      {
+        "text": "Rossi",
+        "alias": "person",
+        "meta": "@sys.person",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

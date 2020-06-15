@@ -1,0 +1,100 @@
+{
+  "id": "4889a3dc-f91f-44b1-8c89-ec760f3d2a37",
+  "name": "Faq_C_Riconoscimento",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "Ecco alcune domande sulla procedura di riconoscimento protezione internazionale in Italia:",
+              "reply_markup": {
+                "one_time_keyboard": false,
+                "keyboard": [
+                  [
+                    {
+                      "text": "🔙TORNA ALLE CATEGORIE DELLE FAQ🔙"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Che cosa è la protezione internazionale?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Che cosa è il CARA/CAS?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Come funziona l\u0027accoglienza per il richiedente asilo?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Come si presenta la domanda per il riconoscimento internazionale?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Cos\u0027è il regolamento di Dublino?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Cosa devo dire alla commissione?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Cosa vuol dire \u0027fare ricorso\u0027?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Voglio andare in un altro paese, come faccio?"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Quanto tempo devo stare qui?"
+                    }
+                  ]
+                ],
+                "resize_keyboard": true
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

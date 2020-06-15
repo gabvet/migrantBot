@@ -1,0 +1,54 @@
+{
+  "id": "a21d0eac-4c3b-49c6-966b-cf1eff0f7424",
+  "name": "Faq_supermercato",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "url": "https://www.tuttocitta.it/supermercati-e-centri-commerciali-italia",
+                      "text": "Premi qui"
+                    }
+                  ]
+                ]
+              },
+              "text": "Ecco la mappa con i supermercati, puoi consultare anche gli orari di apertura:"
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

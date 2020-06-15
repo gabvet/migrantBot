@@ -1,0 +1,48 @@
+[
+  {
+    "id": "914522b4-227a-4b6e-af40-48e7f2fda7ad",
+    "data": [
+      {
+        "text": "Mare",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fd1a0f19-e294-4d3b-803e-420ae5ba5d79",
+    "data": [
+      {
+        "text": "Spiaggia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cda6e754-917e-40b5-aea4-f3b3b5ffdf84",
+    "data": [
+      {
+        "text": "Dove trovo ",
+        "userDefined": false
+      },
+      {
+        "text": "il mare",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

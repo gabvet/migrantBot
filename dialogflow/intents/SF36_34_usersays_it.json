@@ -1,0 +1,72 @@
+[
+  {
+    "id": "6eeb916a-d462-4f95-b4b5-20e66401d7cc",
+    "data": [
+      {
+        "text": "100",
+        "alias": "risposta34",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ee4434e6-ff05-4a27-a6dc-e8cd9d124f4b",
+    "data": [
+      {
+        "text": "75",
+        "alias": "risposta34",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "874c7bc9-385c-47e5-b208-a1602cc3c131",
+    "data": [
+      {
+        "text": "50",
+        "alias": "risposta34",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6fcdc523-f96c-4dad-9c36-ce61d7270623",
+    "data": [
+      {
+        "text": "25",
+        "alias": "risposta34",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1e70e3b9-7e77-41df-90be-8f4c260a3332",
+    "data": [
+      {
+        "text": "0",
+        "alias": "risposta34",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

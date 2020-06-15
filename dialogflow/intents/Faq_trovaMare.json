@@ -1,0 +1,48 @@
+{
+  "id": "7ce7d9ca-f5a6-494a-922f-10d182ed6c1f",
+  "name": "Faq_trovaMare",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "url": "https://www.trovaspiagge.it/",
+                      "text": "Premi qui"
+                    }
+                  ]
+                ]
+              },
+              "text": "Ecco a te un sito web attraverso il quale potrai trovare la spiaggia più vicina a te"
+            }
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

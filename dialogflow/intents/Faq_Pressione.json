@@ -1,0 +1,41 @@
+{
+  "id": "b2d51582-3434-441b-8d54-91047c34127e",
+  "name": "Faq_Pressione",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "title": "Ecco uno schema con i valori della pressione.",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/botsysag.appspot.com/o/faq_pressione.jpg?alt\u003dmedia\u0026token\u003ddeacde14-b6b6-4cd8-bd19-7d8230de5d07"
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "La pressione arteriosa è quella forza con cui il sangue viene spinto attraverso i vasi."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

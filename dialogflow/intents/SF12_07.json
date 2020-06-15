@@ -1,0 +1,99 @@
+{
+  "id": "a1edb46a-546f-4637-b0b9-2b8ed6661df2",
+  "name": "SF12_07",
+  "auto": true,
+  "contexts": [
+    "sf12_6"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf12_7",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "14377242-c6ec-4502-bb63-7d5c650167bc",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "RE3",
+          "value": "$RE3",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "Nelle ultime 4 settimane, in che misura il dolore ti ha ostacolato nel lavoro che svolgi abitualmente (sia in casa che fuori casa)?",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Per nulla",
+                      "callback_data": "1"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Molto poco",
+                      "callback_data": "2"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Un po\u0027",
+                      "callback_data": "3"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Molto",
+                      "callback_data": "4"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "5",
+                      "text": "Moltissimo"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

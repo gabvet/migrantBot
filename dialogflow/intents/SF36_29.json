@@ -1,0 +1,105 @@
+{
+  "id": "f9026781-045d-4be0-8be6-c26de0c6f879",
+  "name": "SF36_29",
+  "auto": true,
+  "contexts": [
+    "sf36_28"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf36_29",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a6ba11be-5632-4743-9ef0-19693ee18431",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "risposta29",
+          "value": "$risposta29",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "Per quanto tempo nelle ultime quattro settimane ti sei sentito felice?",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "100",
+                      "text": "Sempre"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "80",
+                      "text": "Quasi sempre"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Molto tempo",
+                      "callback_data": "60"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "40",
+                      "text": "Una parte del tempo"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "20",
+                      "text": "Quasi mai"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "0",
+                      "text": "Mai"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

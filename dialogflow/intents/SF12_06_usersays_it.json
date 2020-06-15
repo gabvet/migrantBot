@@ -1,0 +1,30 @@
+[
+  {
+    "id": "2c792e25-48e5-48a6-98b7-ad01afcfda89",
+    "data": [
+      {
+        "text": "2",
+        "alias": "RE2",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a17d594e-0406-49e5-9b4a-46fedd6ccec7",
+    "data": [
+      {
+        "text": "1",
+        "alias": "RE2",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

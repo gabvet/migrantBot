@@ -1,0 +1,30 @@
+[
+  {
+    "id": "f53946c8-b65a-452c-910f-2bcfdda95488",
+    "data": [
+      {
+        "text": "2",
+        "alias": "RP2",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "414a8615-a8aa-4868-888e-4c16e495557c",
+    "data": [
+      {
+        "text": "1",
+        "alias": "RP2",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

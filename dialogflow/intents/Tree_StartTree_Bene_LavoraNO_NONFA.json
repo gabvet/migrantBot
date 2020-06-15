@@ -1,0 +1,57 @@
+{
+  "id": "417b0f2f-ca50-49bf-8906-b120850a4327",
+  "name": "Tree_StartTree_Bene_LavoraNO_NONFA",
+  "auto": true,
+  "contexts": [
+    "startTree_Bene_LavoraNO"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "startTree_Bene_LavoraNO_NONFA",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "title": "Ricordati di sfruttare al meglio il tuo tempo!",
+          "replies": [
+            "Ritorna alla home🏠"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "Allora ti suggerisco qualcosa io..."
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "Potresti andare a correre, ascoltare un po\u0027 di musica, guardare un film o una serie tv..."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

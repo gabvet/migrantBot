@@ -1,0 +1,70 @@
+{
+  "id": "f9068648-65c6-4830-b90b-c2be295d41fe",
+  "name": "1_Registration",
+  "auto": true,
+  "contexts": [
+    "register"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "41a10d7d-9621-4da0-a375-fb41edb49680",
+          "required": true,
+          "dataType": "@sys.person",
+          "name": "person",
+          "value": "$person",
+          "prompts": [
+            {
+              "lang": "it",
+              "value": "Potresti dirmi il tuo nome?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "306c6147-96ec-49c5-aa4a-9dd5378c252c",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "code",
+          "value": "$code",
+          "prompts": [
+            {
+              "lang": "it",
+              "value": "Abbiamo quasi finito! Ora mi servirebbe il tuo codice fiscale!"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

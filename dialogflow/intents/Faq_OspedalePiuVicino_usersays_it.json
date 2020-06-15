@@ -1,0 +1,24 @@
+[
+  {
+    "id": "d1d6d2dc-a633-432c-8425-dbe2ebfb1cae",
+    "data": [
+      {
+        "text": "Dove posso trovare ",
+        "userDefined": false
+      },
+      {
+        "text": "l\u0027ospedale",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": false
+      },
+      {
+        "text": " più vicino?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

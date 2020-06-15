@@ -1,0 +1,72 @@
+{
+  "id": "7b27fe11-274a-46d9-a214-7074a42ca29a",
+  "name": "Tree_StartTree_Male",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "startTree_Male",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "one_time_keyboard": true,
+                "resize_keyboard": true,
+                "keyboard": [
+                  [
+                    {
+                      "text": "Sono giù d\u0027umore"
+                    },
+                    {
+                      "text": "Ho un problema"
+                    },
+                    {
+                      "text": "Problemi di salute"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Torna alla home🏠"
+                    }
+                  ]
+                ]
+              },
+              "text": "Oh no, come mai? Che cosa c\u0027è che non va?"
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

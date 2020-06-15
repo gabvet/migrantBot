@@ -1,0 +1,83 @@
+{
+  "id": "a773aa11-da67-4e83-bddc-81ac053f6ab2",
+  "name": "SF36_07",
+  "auto": true,
+  "contexts": [
+    "sf36_6"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf36_7",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9a3875db-7765-4b65-b70d-644bdf41ad9f",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "risposta7",
+          "value": "$risposta7",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "1",
+                      "callback_data": "0"
+                    },
+                    {
+                      "text": "2",
+                      "callback_data": "50"
+                    },
+                    {
+                      "text": "3",
+                      "callback_data": "100"
+                    }
+                  ]
+                ]
+              },
+              "text": "1 - Sì, mi limita parecchio \n2 - Si, mi limita parzialmente \n3 - No, non mi limita per nulla"
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "Piegarsi, inginocchiarsi o chinarsi"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

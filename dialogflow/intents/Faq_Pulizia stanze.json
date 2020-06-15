@@ -1,0 +1,31 @@
+{
+  "id": "219eed0d-f60e-4361-8a03-d5535d416d63",
+  "name": "Faq_Pulizia stanze",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "II servizio di pulizia dei locali, dei servizi igienici  e degli spazi comuni viene effettuato 2 volte al giorno (mattina e pomeriggio), nelle seguenti fasce orarie: 9 – 12 e 15 – 18.\nViene effettuata, inoltre, una pulizia periodica il lunedì di ogni settimana e il cambio della biancheria."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

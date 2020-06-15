@@ -1,0 +1,79 @@
+{
+  "id": "28209e0a-e406-478a-a83f-c23ff12ba2d4",
+  "name": "SF36_13",
+  "auto": true,
+  "contexts": [
+    "sf36_12"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf36_13",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "06322124-add0-4667-96b2-6f0a5473060c",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "risposta13",
+          "value": "$risposta13",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "Hai reso meno di quanto avresti voluto",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Sì",
+                      "callback_data": "0"
+                    },
+                    {
+                      "text": "No",
+                      "callback_data": "100"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

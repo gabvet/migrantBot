@@ -1,0 +1,83 @@
+{
+  "id": "a47113ac-db7c-4bc6-981d-073fa85f2964",
+  "name": "SF36_04",
+  "auto": true,
+  "contexts": [
+    "sf36_3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf36_4",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f0ffa375-72dd-41cf-acdb-65e3e2670dbe",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "risposta4",
+          "value": "$risposta4",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "1 - Sì, mi limita parecchio \n2 - Si, mi limita parzialmente \n3 - No, non mi limita per nulla",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "0",
+                      "text": "1"
+                    },
+                    {
+                      "text": "2",
+                      "callback_data": "50"
+                    },
+                    {
+                      "text": "3",
+                      "callback_data": "100"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "Sollevare o portare le borse della spesa"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

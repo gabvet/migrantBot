@@ -1,0 +1,92 @@
+[
+  {
+    "id": "a39bc385-196c-4781-9cbf-4e461830fa3b",
+    "data": [
+      {
+        "text": "centri di accoglienza in italia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c393e1d7-aecc-437f-8e30-f6fc161dd46a",
+    "data": [
+      {
+        "text": "Cos\u0027è il CPSA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8da55fcc-1519-4895-986d-3b695248a9f9",
+    "data": [
+      {
+        "text": "cosa è il CDA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c7695a0a-71c3-48eb-adfe-58ceab3456cd",
+    "data": [
+      {
+        "text": "cosa è ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " CDA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1b2cc538-ad25-4f68-af25-cfe2602b86a6",
+    "data": [
+      {
+        "text": "Cosa è ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " centro di accoglienza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9f9a180d-d441-4a8c-a918-1c0a8821afe2",
+    "data": [
+      {
+        "text": "Cosa sono i CDA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

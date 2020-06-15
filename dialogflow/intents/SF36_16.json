@@ -1,0 +1,79 @@
+{
+  "id": "ad0d8307-9964-412a-a0d4-c41ecc6581b0",
+  "name": "SF36_16",
+  "auto": true,
+  "contexts": [
+    "sf36_15"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sf36_16",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "251edc84-f764-490d-b169-bc0294d1563b",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "risposta16",
+          "value": "$risposta16",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "it",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "0",
+                      "text": "Sì"
+                    },
+                    {
+                      "text": "No",
+                      "callback_data": "100"
+                    }
+                  ]
+                ]
+              },
+              "text": "Hai ridotto il tempo dedicato al lavoro o ad altre attività"
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": "Molto bene!\nNelle ultime quattro settimane, hai riscontrato i seguenti problemi sul lavoro o nelle altre attività quotidiane, a causa della tuo stato emotivo (ad esempio ti sei sentito depresso o ansioso)?\nNelle prossime domande puoi premere su Sì o No.."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
