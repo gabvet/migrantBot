@@ -663,8 +663,8 @@ exports.dialogflowFirebaseFulfillment =  functions.region('europe-west2').https.
             MCS12: MCS12
         });
         
-        agent.add('Score salute fisica PCS12: ' + parseFloat(PCS12).toFixed(2));
-        agent.add('Score salute mentale MCS12: ' + parseFloat(MCS12).toFixed(2));
+        agent.add('Score salute fisica PCS12: ' + parseFloat(PCS12).toFixed(2) + '%');
+        agent.add('Score salute mentale MCS12: ' + parseFloat(MCS12).toFixed(2) + '%');
         
         const tempFilePath = path.join(os.tmpdir(), request.body.originalDetectIntentRequest.payload.data.callback_query.from.id.toString() + '.png');
         const storageBucket = admin.storage().bucket( 'gs://botsysag.appspot.com' );
