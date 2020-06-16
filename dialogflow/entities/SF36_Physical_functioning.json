@@ -1,9 +1,0 @@
-{
-  "id": "1b9b0667-8b11-4805-b22c-09a02845f4f4",
-  "name": "SF36_Physical_functioning",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}
