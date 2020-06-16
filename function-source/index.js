@@ -726,7 +726,7 @@ exports.dialogflowFirebaseFulfillment =  functions.region('europe-west2').https.
 
         return docRef.get().then(doc => {
             if (!doc.exists) {
-                agent.add('Benvenuto in MigrantBot! Potresti dirmi come ti chiami?');
+                agent.add('Benvenuto in MigrantBot! Come ti chiami?');
                 agent.context.set('register', 1, {'param1':1});
             } 
             else {
