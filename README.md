@@ -5,7 +5,7 @@
 - `Documentazione.pdf` -> Documentazione di Migrantbot
 - `docFunzioni.md` -> Documentazione delle funzioni del fulfilment di Dialogflow
 - `dialogflow.zip` -> Cartella compressa contenente i file da ripristinare nel progetto di Dialogflow
-- `function-source\` -> Directory con i file contenenti il codice da integrare nei rispettivi file del fulfilment di Dialogflow
+- `function-source/` -> Directory con i file contenenti il codice da integrare nei rispettivi file del fulfilment di Dialogflow
   - `index.js`
   - `package.json`
 
